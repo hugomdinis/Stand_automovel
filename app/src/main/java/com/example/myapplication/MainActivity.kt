@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
+        drawerLay
     }
 }
