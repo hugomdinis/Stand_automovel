@@ -27,9 +27,13 @@ class MainActivity : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener {
             when(it.itemId) {
-                R.id.miItem1 -> Toast.makeText(applicationContext,"Clicked Item 1", Toast.LENGTH_SHORT).show()
-                R.id.miItem2 -> Toast.makeText(applicationContext,"Clicked Item 2", Toast.LENGTH_SHORT).show()
-                R.id.miItem3 -> Toast.makeText(applicationContext,"Clicked Item 3", Toast.LENGTH_SHORT).show()
+                R.id.home -> Toast.makeText(applicationContext,"Página Principal", Toast.LENGTH_SHORT).show()
+                R.id.carros-> Toast.makeText(applicationContext,"Carros", Toast.LENGTH_SHORT).show()
+                R.id.motas -> Toast.makeText(applicationContext,"Motas", Toast.LENGTH_SHORT).show()
+                R.id.settings -> Toast.makeText(applicationContext,"Defenições", Toast.LENGTH_SHORT).show()
+                R.id.login -> Toast.makeText(applicationContext,"Iniciar Sessão", Toast.LENGTH_SHORT).show()
+                R.id.share -> Toast.makeText(applicationContext,"Partilhar", Toast.LENGTH_SHORT).show()
+                R.id.rate -> Toast.makeText(applicationContext,"Avalie-nos", Toast.LENGTH_SHORT).show()
 
             }
             true
